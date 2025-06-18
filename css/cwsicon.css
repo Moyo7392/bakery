@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "cwsicon";
+  src: url("../fonts/Flaticon_1.eot");
+  src: url("../fonts/Flaticon_1.eot#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon_1.woff") format("woff"),
+       url("../fonts/Flaticon_1.ttf") format("truetype"),
+       url("../images/Flaticon_1.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "cwsicon";
+    src: url("../images/Flaticon_1.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="cwsicon-"]:before, [class*=" cwsicon-"]:before,
+[class^="cwsicon-"]:after, [class*=" cwsicon-"]:after {   
+  font-family: cwsicon;
+  font-size: inherit;
+  font-style: normal;
+  margin-left: 0;
+}
+
+.cwsicon-arrows:before { content: "\f100"; }
+.cwsicon-draw:before { content: "\f101"; }
+.cwsicon-shapes-1:before { content: "\f102"; }
+.cwsicon-danger:before { content: "\f103"; }
+.cwsicon-mark:before { content: "\f104"; }
+.cwsicon-signs-2:before { content: "\f105"; }
+.cwsicon-transport-2:before { content: "\f106"; }
+.cwsicon-food-7:before { content: "\f107"; }
+.cwsicon-food-6:before { content: "\f108"; }
+.cwsicon-food-5:before { content: "\f109"; }
+.cwsicon-food-4:before { content: "\f10a"; }
+.cwsicon-building:before { content: "\f10b"; }
+.cwsicon-interface-2:before { content: "\f10c"; }
+.cwsicon-clock-1:before { content: "\f10d"; }
+.cwsicon-interface-1:before { content: "\f10e"; }
+.cwsicon-multimedia-1:before { content: "\f10f"; }
+.cwsicon-paint:before { content: "\f110"; }
+.cwsicon-delete:before { content: "\f111"; }
+.cwsicon-information:before { content: "\f112"; }
+.cwsicon-transport-1:before { content: "\f113"; }
+.cwsicon-like:before { content: "\f114"; }
+.cwsicon-signs:before { content: "\f115"; }
+.cwsicon-food-3:before { content: "\f116"; }
+.cwsicon-signs-1:before { content: "\f117"; }
+.cwsicon-food-2:before { content: "\f118"; }
+.cwsicon-food-1:before { content: "\f119"; }
+.cwsicon-social-1:before { content: "\f11a"; }
+.cwsicon-refresh:before { content: "\f11b"; }
+.cwsicon-person:before { content: "\f11c"; }
+.cwsicon-social:before { content: "\f11d"; }
+.cwsicon-square:before { content: "\f11e"; }
+.cwsicon-transport:before { content: "\f11f"; }
+.cwsicon-shapes:before { content: "\f120"; }
+.cwsicon-interface:before { content: "\f121"; }
+.cwsicon-clock:before { content: "\f122"; }
+.cwsicon-school:before { content: "\f123"; }
+.cwsicon-multimedia:before { content: "\f124"; }
+.cwsicon-food:before { content: "\f125"; }
+.cwsicon-scissors:before { content: "\f126"; }
+.cwsicon-note:before { content: "\f127"; }
+.cwsicon-check:before { content: "\f128"; }
+.cwsicon-commerce:before { content: "\f129"; }
